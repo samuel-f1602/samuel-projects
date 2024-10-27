@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.container-img {
+    height: 100vh;
+    width: 58%;
+}
+
+.container-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42vw;
+    direction: rtl;
+    margin-top: 10em;
+}
+
+.form-main2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-main2>h1 {
+    font: normal normal 900 43px/63px Heebo;
+    color: #020253;
+    opacity: 1;
+}
+
+.form-main2>p {
+    font: normal normal normal 20px/29px Heebo;
+    color: #020253;
+    opacity: 1;
+}
+
+/*כדי שהפורם יהיה אחד מתחת לשני*/
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control>label {
+    font: normal normal bold 16px/24px Heebo;
+    color: #2C2C2C;
+}
+
+.form-control>input {
+    width: 418px;
+    height: 50px;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #020253;
+}
+
+.form-main2>button {
+    width: 166px;
+    height: 50px;
+    background: #020253 0% 0% no-repeat padding-box;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+}
+
+#img-m {
+    display: none;
+}
+
+/*גרסת מובייל*/
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+
+    }
+
+    .container-img {
+        height: 30%;
+        width: 100%;
+    }
+
+    #img-m {
+        display: block;
+    }
+
+    #img-d {
+        display: none;
+    }
+
+    .container-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        direction: rtl;
+        margin-top: 3em;
+    }
+
+    .form-main2 {
+        width: 70%;
+    }
+
+    .form-main2>h1 {
+        font: normal normal 900 28px/41px Heebo;
+        color: #020253;
+    }
+
+    .form-main2>p {
+        font: normal normal normal 15px/22px Heebo;
+        color: #020253;
+    }
+
+    .form-control>label {
+        font: normal normal bold 10px/14px Heebo;
+        color: #2C2C2C;
+    }
+
+    .form-control>input {
+        width: 100%;
+        height: 34px;
+    }
+
+    .form-main2>button {
+        width: 100%;
+        height: 34px;
+        font: normal normal bold 14px/19px heebo;
+        margin-bottom: 1eme;
+    }
+}
+
+/*גרסת טאבלט*/
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container-img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container-form {
+        width: 100%;
+        margin-top: 5em;
+    }
+
+    .form-main2 {
+        width: 80%;
+    }
+
+    .form-main2>h1 {
+        font-size: 36px;
+    }
+
+    .form-main2>p {
+        font-size: 18px;
+    }
+
+    .form-control>input {
+        width: 100%;
+    }
+
+    .form-main2>button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .form-main2>h1 {
+        font-size: 30px;
+    }
+
+    .form-main2>p {
+        font-size: 16px;
+    }
+
+    .form-control>input {
+        height: 45px;
+    }
+
+    .form-main2>button {
+        height: 45px;
+    }
+}

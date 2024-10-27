@@ -1,0 +1,203 @@
+/*project3 design*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*button landing pages*/
+.btn-landing {
+    background-color: rgb(0, 234, 255);
+    border: 2px solid #fff;
+    border-radius: 200px;
+    font-size: 15px;
+    color: #000;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.btn-landing:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(0.9);
+}
+
+.btn-landing a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*project3*/
+.background-main3 {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.main-3 {
+    display: flex;
+    height: 100vh;
+    background-image: url(/image-projects/page3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.project3 {
+    display: flex;
+    height: 400px;
+    width: 80%;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.form-main3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.form-main3 h2 {
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.form-main3 p {
+    font-size: 12px;
+    color: white;
+    margin: 20px;
+
+}
+
+.place-main3 {
+    padding: 10px;
+    width: 70%;
+    margin: 15px;
+    border: 1px solid rgb(152, 18, 106);
+    text-align: center;
+    background-color: white;
+}
+
+.label {
+    font-size: 12px;
+    color: white;
+}
+
+#submit {
+    background-color: rgb(152, 18, 106);
+    padding: 5px 20px;
+    border: 1px solid rgb(152, 18, 106);
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: rgb(152, 18, 106);
+}
+
+section {
+    width: 100vw;
+    height: 60vw;
+    background: #EBFEFF 0% 0% no-repeat padding-box;
+}
+
+.screen-capture>a>img {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 40vw;
+    box-shadow: 0px 0px 40px #00000066;
+    opacity: 1;
+}
+
+/*גרסת מובייל*/
+@media (max-width: 678px) {
+    .main-3 {
+        padding: 10px;
+    }
+
+    .project3 {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .form-main3 {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .form-main3 h2 {
+        font-size: 18px;
+    }
+
+    .form-main3 p {
+        font-size: 10px;
+    }
+
+    .place-main3 {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #submit {
+        padding: 5px 15px;
+    }
+
+    section {
+        height: 40vw;
+    }
+
+    .screen-capture>a>img {
+        width: 95vw;
+        margin-left: 2.5%;
+    }
+}
+
+/*גרסת טאבלט*/
+@media (max-width: 1200px) {
+    .main-3 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .project3 {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .form-main3 {
+        width: 80%;
+    }
+
+    section {
+        height: 50vw;
+    }
+
+    .screen-capture>a>img {
+        width: 90vw;
+        height: auto;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .form-main3 h2 {
+        font-size: 18px;
+    }
+
+    .form-main3 p {
+        font-size: 10px;
+    }
+
+    .place-main3 {
+        width: 90%;
+    }
+
+    #submit {
+        width: 100%;
+    }
+}

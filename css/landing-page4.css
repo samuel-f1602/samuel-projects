@@ -1,0 +1,176 @@
+/*project4 design*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*button landing pages*/
+.btn-landing {
+    background-color: rgb(0, 234, 255);
+    border: 2px solid #fff;
+    border-radius: 200px;
+    font-size: 15px;
+    color: #000;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.btn-landing:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(0.9);
+}
+
+.btn-landing a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*project4*/
+.background-main4 {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.main-4 {
+    display: flex;
+    height: 100%;
+    background-image: url(/image-projects/page4\ cap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.project4 {
+    display: flex;
+    height: 400px;
+    width: 80%;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.bottom-main-project4 {
+    background-color: #fff;
+    text-align: center;
+}
+
+.form-main4 {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.label {
+    color: rgb(7, 7, 61);
+}
+
+.form-main4 input {
+    background-color: #f3f1f1;
+}
+
+#submit {
+    background-color: rgb(192, 240, 0);
+    padding: 5px 20px;
+    border: 1px solid rgb(192, 240, 0);
+    color: rgb(7, 7, 61);
+}
+
+#submit:hover {
+    background-color: rgb(7, 7, 61);
+    color: rgb(192, 240, 0);
+}
+
+section {
+    width: 100vw;
+    height: 60vw;
+    background: #EBFEFF 0% 0% no-repeat padding-box;
+}
+
+.screen-capture>a>img {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 40vw;
+    box-shadow: 0px 0px 40px #00000066;
+    opacity: 1;
+}
+
+/*גרסת מובייל*/
+@media (max-width: 678px) {
+    .main-4 {
+        padding: 10px;
+    }
+
+    .project4 {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .form-main4 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .label {
+        font-size: 12px;
+    }
+
+    .form-main4 input {
+        width: 100%;
+    }
+
+    #submit {
+        padding: 5px 15px;
+    }
+
+    section {
+        height: 40vw;
+    }
+
+    .screen-capture>a>img {
+        width: 95vw;
+        margin-left: 2.5%;
+    }
+}
+
+/*גרסת טאבלט*/
+@media (max-width: 1200px) {
+    .main-4 {
+        padding: 10px;
+    }
+
+    .project4 {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .form-main4 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .label {
+        font-size: 12px;
+    }
+
+    .form-main4 input {
+        width: 100%;
+    }
+
+    #submit {
+        padding: 5px 15px;
+    }
+
+    section {
+        height: 50vw;
+    }
+
+    .screen-capture>a>img {
+        width: 90vw;
+        height: auto;
+        margin-left: 5%;
+    }
+}

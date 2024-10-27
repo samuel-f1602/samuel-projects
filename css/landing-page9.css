@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* project9 design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* button landing pages */
+.btn-landing {
+  background-color: rgb(0, 234, 255);
+  border: 2px solid #fff;
+  border-radius: 200px;
+  font-size: 15px;
+  color: #000;
+  transition-duration: 0.2s;
+  text-decoration: none;
+}
+.btn-landing:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(0.9);
+}
+.btn-landing a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container9 {
+  display: flex;
+  background-color: black;
+}
+.container9 .container9-img9 {
+  height: 100vh;
+  width: 58%;
+}
+.container9 .container9-img9 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 20px;
+}
+.container9 .container-form9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42vw;
+  direction: rtl;
+  margin-top: 10em;
+  background-color: #4c005b;
+}
+.container9 .container-form9 .form-main9 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* כדי שהפורם יהיה אחד מתחת לשני */
+}
+.container9 .container-form9 .form-main9 h1 {
+  font: normal normal 900 43px/63px Heebo;
+  color: black;
+  opacity: 1;
+}
+.container9 .container-form9 .form-main9 p {
+  font: normal normal normal 20px/29px Heebo;
+  color: black;
+  opacity: 1;
+}
+.container9 .container-form9 .form-main9 .form-control9 {
+  display: flex;
+  flex-direction: column;
+}
+.container9 .container-form9 .form-main9 .form-control9 label {
+  font: normal normal bold 16px/24px Heebo;
+  color: #ff0000;
+}
+.container9 .container-form9 .form-main9 .form-control9 input {
+  width: 418px;
+  height: 50px;
+  background: #ffe5e5 no-repeat padding-box;
+  border: 0;
+  border-bottom: 4px solid #ff0000;
+}
+.container9 .container-form9 .form-main9 button {
+  width: 166px;
+  height: 50px;
+  background: #ff0000 no-repeat padding-box;
+  font: normal normal bold 22px/30px Heebo;
+  letter-spacing: 0.33px;
+  color: black;
+}
+
+section {
+  width: 100vw;
+  height: 60vw;
+  background: #EBFEFF no-repeat padding-box;
+}
+
+.screen-capture a img {
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80vw;
+  height: 40vw;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+/*גרסת מובייל*/
+@media (max-width: 678px) {
+  .container9 {
+    flex-direction: column;
+  }
+  .container9 .container9-img9 {
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+  }
+  .container9 .container9-img9 img {
+    padding: 10px;
+    height: 600px;
+  }
+  .container9 .container-form9 {
+    width: 100%;
+    margin-top: 5em;
+    padding: 20px;
+  }
+  .container9 .container-form9 .form-main9 {
+    width: 100%;
+  }
+  .container9 .container-form9 .form-main9 h1 {
+    font-size: 28px;
+  }
+  .container9 .container-form9 .form-main9 p {
+    font-size: 16px;
+  }
+  .container9 .container-form9 .form-main9 .form-control9 input {
+    width: 100%;
+    height: 40px;
+  }
+  .container9 .container-form9 .form-main9 button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+  }
+  section {
+    height: auto;
+  }
+  .screen-capture a img {
+    width: 90vw;
+    height: auto;
+  }
+}
+/*גרסת לטאבלט*/
+@media (max-width: 1200px) {
+  .container9 {
+    flex-direction: column;
+  }
+  .container9 .container9-img9 {
+    width: 100%;
+    height: 50vh;
+  }
+  .container9 .container9-img9 img {
+    padding: 10px;
+    height: 500px;
+  }
+  .container9 .container-form9 {
+    width: 100%;
+    margin-top: 5em;
+    padding: 20px;
+  }
+  .container9 .container-form9 .form-main9 {
+    width: 100%;
+  }
+  .container9 .container-form9 .form-main9 h1 {
+    font-size: 36px;
+  }
+  .container9 .container-form9 .form-main9 p {
+    font-size: 18px;
+  }
+  .container9 .container-form9 .form-main9 .form-control9 input {
+    width: 100%;
+    height: 40px;
+  }
+  .container9 .container-form9 .form-main9 button {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+  }
+  section {
+    height: auto;
+  }
+  .screen-capture a img {
+    width: 90vw;
+    height: auto;
+  }
+}/*# sourceMappingURL=landing-page9.css.map */

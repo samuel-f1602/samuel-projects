@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+.my-cv {
+    margin-right: 20px;
+}
+
+.my-cv h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.my-cv h2 {
+    color: rgb(43, 43, 43);
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.my-cv .me {
+    color: rgb(43, 43, 43);
+    font-size: 18px;
+}
+
+.my-cv h3 {
+    color: blue;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.my-cv h4 {
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+ol {
+    color: black;
+    list-style-type: inherit;
+}
+
+/*גרסת מובייל*/
+@media (max-width: 678px) {
+    .my-cv h1 {
+        font-size: 20px;
+    }
+
+    .my-cv h2 {
+        font-size: 18px;
+    }
+
+    .my-cv .me {
+        font-size: 14px;
+    }
+
+    .my-cv h3 {
+        font-size: 20px;
+    }
+
+    .my-cv h4 {
+        font-size: 16px;
+    }
+}
+
+/*גרסת טאבלט*/
+@media (max-width: 1200px) {
+    .my-cv h1 {
+        font-size: 26px;
+    }
+
+    .my-cv h2 {
+        font-size: 20px;
+    }
+
+    .my-cv .me {
+        font-size: 16px;
+    }
+
+    .my-cv h3 {
+        font-size: 24px;
+    }
+
+    .my-cv h4 {
+        font-size: 18px;
+    }
+
+    ol {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .my-cv h1 {
+        font-size: 22px;
+    }
+
+    .my-cv h2 {
+        font-size: 18px;
+    }
+
+    .my-cv .me {
+        font-size: 14px;
+    }
+
+    .my-cv h3 {
+        font-size: 22px;
+    }
+
+    .my-cv h4 {
+        font-size: 16px;
+    }
+
+    ol {
+        font-size: 14px;
+    }
+
+    .my-cv {
+        margin-right: 10px;
+    }
+}

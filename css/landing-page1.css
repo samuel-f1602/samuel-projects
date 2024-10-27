@@ -1,0 +1,166 @@
+/*project1 design*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*button landing pages*/
+.btn-landing {
+    background-color: rgb(0, 234, 255);
+    border: 2px solid #fff;
+    border-radius: 200px;
+    font-size: 15px;
+    color: #000;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.btn-landing:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(0.9);
+}
+
+.btn-landing a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*project-1*/
+.main-1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    background-color: #f2eded;
+}
+
+.project1 {
+    display: flex;
+    z-index: 999;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 500px;
+    background: linear-gradient(blue, rgb(1, 255, 179));
+    padding: 20px 70px;
+    z-index: 10;
+    color: #fff;
+}
+
+.project1 h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff00;
+}
+
+section {
+    width: 100vw;
+    height: 60vw;
+    background: #EBFEFF 0% 0% no-repeat padding-box;
+}
+
+.screen-capture>a>img {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 40vw;
+    box-shadow: 0px 0px 40px #00000066;
+    opacity: 1;
+}
+
+/*גרסת מובייל*/
+@media (max-width: 678px) {
+    .main-1 {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .project1 {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .project1 h2 {
+        font-size: 24px;
+    }
+
+    .project1 p {
+        font-size: 14px;
+    }
+
+    .btn-landing {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    section {
+        height: 40vw;
+    }
+
+    .screen-capture>a>img {
+        width: 95vw;
+        margin-left: 2.5%;
+    }
+}
+
+/*גרסת טאבלט*/
+@media (max-width: 1200px) {
+    .main-1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .project1 {
+        width: 90%;
+        padding: 20px 40px;
+        height: auto;
+    }
+
+    .project1 h2 {
+        font-size: 40px;
+    }
+
+    .project1 p {
+        font-size: 18px;
+    }
+
+    section {
+        height: 50vw;
+    }
+
+    .screen-capture>a>img {
+        width: 90vw;
+        height: auto;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .project1 h2 {
+        font-size: 30px;
+    }
+
+    .project1 p {
+        font-size: 16px;
+    }
+}
