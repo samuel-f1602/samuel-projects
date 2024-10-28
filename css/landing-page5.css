@@ -249,10 +249,14 @@ section {
     }
 
     .consult-form-title h1 {
+        width: 100%;
+        flex-direction: row;
         font-size: 28px;
     }
 
     .consult-form-title p {
+        width: 100%;
+        flex-direction: row;
         font-size: 14px;
     }
 
@@ -296,6 +300,50 @@ section {
         display: none;
     }
 
+}
+
+@media (max-width: 340px) {
+    .consult-img img {
+        height: 200px;
+    }
+
+    .consult-form {
+        width: 200px;
+        padding: 1em;
+    }
+
+    .consult-form-title h1 {
+        width: 200px;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .consult-form-title p {
+        width: 200px;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+    }
+
+    .social-icons-whatsapp,
+    .social-icons-facbook,
+    .social-icons-instagram,
+    .social-icons-mail,
+    .social-icons-call {
+        width: 30px;
+        height: 30px;
+    }
+
+    .end-page {
+        display: none;
+    }
+
+    .bottom {
+        display: none;
+    }
 }
 
 /*גרסת טאבלט*/
