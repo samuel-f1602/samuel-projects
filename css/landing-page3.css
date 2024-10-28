@@ -36,7 +36,7 @@
 .main-3 {
     display: flex;
     height: 100vh;
-    background-image: url(/image-projects/page3.png);
+    background-image: url(../image-projects/page3.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;

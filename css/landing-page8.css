@@ -36,7 +36,7 @@
 .main-8 {
     display: flex;
     height: 100%;
-    background-image: url(/image-projects/page8.png);
+    background-image: url(../image-projects/page8.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;

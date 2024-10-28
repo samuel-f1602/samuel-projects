@@ -94,7 +94,7 @@
 .side {
     display: flex;
     width: 60%;
-    background-image: url(/image-projects/coffe-p.png);
+    background-image: url(../image-projects/coffe-p.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
