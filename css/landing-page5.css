@@ -288,6 +288,14 @@ section {
         margin-top: 30px;
     }
 
+    .end-page {
+        display: none;
+    }
+
+    .bottom {
+        display: none;
+    }
+
 }
 
 /*גרסת טאבלט*/
@@ -352,4 +360,11 @@ section {
         margin-top: 30px;
     }
 
+    .end-page {
+        display: none;
+    }
+
+    .bottom {
+        display: none;
+    }
 }
