@@ -133,6 +133,7 @@ section {
     .screen-capture>a>img {
         width: 95vw;
         margin-left: 2.5%;
+        margin-top: 20px;
     }
 }
 
@@ -172,5 +173,6 @@ section {
         width: 90vw;
         height: auto;
         margin-left: 5%;
+        margin-top: 20px;
     }
 }
